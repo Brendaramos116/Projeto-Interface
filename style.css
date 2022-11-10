@@ -1,0 +1,107 @@
+
+body {background-color: #DC143C}
+
+
+.nav div {
+display: inline-block;
+position: absolute;
+left: 30;
+padding: 15px;
+font-size: 60px;
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav ul {
+position: absolute;
+right: 30px;
+}
+.nav ul li {
+display: inline-block;
+}
+.nav ul li a {
+color: white;
+padding: 10px;
+font-family: 'Rubik Glitch', cursive;
+
+}
+.home {
+background:url(https://cinepop.com.br/wp-content/uploads/2021/10/cinema.jpg);
+background-size: cover;
+height: 150vh;
+}
+.formulario{
+width: 400px;
+padding: 30px;
+border: 2  #F5A2A2;
+}
+
+.formulario form{
+width: 100px;
+margin: 15px;
+}
+
+.formulario input[type=text]
+{
+width: 200px;
+padding-right: 30px;
+height: 30px;
+line-height: 30px;
+border-radius: 15px;
+border: 1px  #F5A2A2;
+outline: none;
+}
+.formulario input[type=number]
+{
+width: 130px;
+padding-right: 30px;
+height: 30px;
+line-height: 30px;
+border-radius: 15px;
+border: 1px  #F5A2A2;
+outline: none;
+}
+.formulario input[type=E-mail]
+{
+width: 200px;
+padding-right: 30px;
+height: 30px;
+line-height: 30px;
+border-radius: 15px;
+border: 1px  #F5A2A2;
+outline: none;
+}
+.formulario input[type=textarea]
+{
+width: 400px;
+padding-right: 20px;
+height: 90px;
+line-height: 30px;
+border-radius: 15px;
+border: 1px  #F5A2A2;
+outline: none;
+}
+.formulario input[type=date]
+{
+width: 100px;
+padding-right: 30px;
+height: 30px;
+line-height: 30px;
+border-radius: 15px;
+border: 1px  #F5A2A2;
+outline: none;
+}
+.formulario button[type=submit]
+{
+display: block;
+background-color: #F5A2A2;
+height: 35px;
+border: none;
+outline: 0;
+cursor: pointer;
+width: 100px;
+margin: 0 auto;
+text-align: center;
+border-radius: 15px;
+}
+</style>
